@@ -44,7 +44,39 @@ body{
    
 }
 
-.escolhaPersonagem{
+#escolhaPersonagem1{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding-bottom: 200px;
+    background: rgba(87, 87, 87, 0.9);
+    
+ 
+     
+}
+
+#escolhaPersonagem2{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding-bottom: 200px;
+    background: rgba(87, 87, 87, 0.9);
+    
+ 
+     
+}
+
+#escolhaPersonagem3{
     width: 30%;
     height: auto;
     display: flex;
@@ -78,7 +110,21 @@ body{
     
 }
 
-.escolhaPersonagem:hover{
+#escolhaPersonagem1:hover{
+    border: 8px solid rgba(87, 87, 87, 0.9);
+    background: rgba(36, 35, 35, 0.9);
+    transform: scale(1.1);
+ 
+}
+
+#escolhaPersonagem2:hover{
+    border: 8px solid rgba(87, 87, 87, 0.9);
+    background: rgba(36, 35, 35, 0.9);
+    transform: scale(1.1);
+ 
+}
+
+#escolhaPersonagem3:hover{
     border: 8px solid rgba(87, 87, 87, 0.9);
     background: rgba(36, 35, 35, 0.9);
     transform: scale(1.1);

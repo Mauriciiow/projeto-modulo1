@@ -9,23 +9,24 @@
 </head>
 <body>
     <header class="titulo">
-        <h1>titulo</h1>
+        <h1>escolha seu personagem:</h1>
     </header>
 
 
     <main id="container">
         <div id="container-personagem">
-        <div  class="escolhaPersonagem">
+
+        <div  id="escolhaPersonagem1" onclick="escolhaPersonagem1()">
+
             <img src="../imagens/jason.gif" alt="Jason" class="escolhaImagem">
             <div class="texto">
                 <p class="explicacao-personagem">explicacao do personagem</p>
+
             </div>
-            
         </div>
         
 
-
-          <div  class="escolhaPersonagem">
+          <div  id="escolhaPersonagem2" onclick="escolhaPersonagem2()">
             <img src="../imagens/michael-myers.gif" alt="Michael Myers" class="escolhaImagem" >
             <div class="texto">
                 <p class="explicacao-personagem">explicacao do personagem</p>
@@ -33,7 +34,7 @@
           </div>
 
 
-        <div  class="escolhaPersonagem">
+        <div  id="escolhaPersonagem3" onclick="escolhaPersonagem2()">
             <img src="../imagens/freddy-krueger.gif" alt="Freddy Krueger" class="escolhaImagem" id="freddy-imagem" >
             <div class="texto">
                 <p class="explicacao-personagem">explicacao do personagem</p>
@@ -42,6 +43,6 @@
     </div>
     </main>
    
-        
+        <script src="./selecao-personagem.js"></script>
 </body>
 </html>
