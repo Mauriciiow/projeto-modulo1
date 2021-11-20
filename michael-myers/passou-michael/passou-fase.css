@@ -1,39 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;400&family=Roboto:wght@300&display=swap');
-
-@font-face {
-    font-family: 'monster' ;
-    src: url('./fontes/Melted\ Monster.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'creepy' ;
-    src: url('./fontes/Creepy\ Blood.ttf') format('truetype'),  url('./fontes/Creepy\ Blood.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
 body{
-    background: url('./imagens/background.jpg');
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
-  
+    background: rgba(0, 0, 0, 0.9);
 }
 
 #titulo{
     width: 100%;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -49,10 +29,10 @@ body{
     width: 100%;
     height:auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-grow: 1;
-   
+    height: auto;
 }
 
 
@@ -60,10 +40,9 @@ body{
 #historia{
     width: 60%;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
 }
 
 #historia p{
@@ -83,12 +62,11 @@ body{
     height: 40px;
     border: none;
     border-radius: 5px;
-    background-color:rgba(255, 255, 255, 0.8) ;
+    background-color:rgba(255, 255, 255, 0.9) ;
     font-size: 17px;
-    font-family: 'creepy', 'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;
     margin-top: 30px;
     transition: 1s all;
-    font-size: 25px;
 }
 
 #botao:hover{
@@ -97,16 +75,4 @@ body{
     cursor: pointer;
     transform: scale(1.2);
     
-}
-
-#rodape{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'monster', Courier, monospace;
-    font-size: 20px;
 }

@@ -28,6 +28,10 @@
 body{
     /* background: url(./849230.png) no-repeat; */
     background: url('../imagens/escolha-personagem-back.jpg') ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
   
 
  
@@ -37,7 +41,7 @@ body{
 
 .titulo{
     width: 100%;
-    height: 180px;
+    height: 150px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -53,7 +57,8 @@ body{
 
 #container{
     width: 100%;
-    height: 80vh;
+    height: auto;
+    flex-grow: 1;
 }
 
 
@@ -62,6 +67,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+   
   
    
    
@@ -102,8 +108,7 @@ body{
 }
 
 #escolhaPersonagem:hover{
-   
-    background: rgba(36, 35, 35, 0.6);
+
     transform: scale(1.1);
  
 }
@@ -118,6 +123,19 @@ body{
     font-size: 25px;
     text-align: center;
 }
+
+#rodape{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'monster', Courier, monospace;
+    font-size: 20px;
+}
+
 
 @media(max-width: 600px){
     #container-personagem{
