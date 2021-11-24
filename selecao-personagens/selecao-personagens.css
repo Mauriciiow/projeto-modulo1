@@ -147,7 +147,7 @@ body{
 
     .titulo{
         font-size: 25px;
-        height: 140px;
+        height: auto;
     }
 
     #escolhaPersonagem{
