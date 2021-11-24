@@ -147,6 +147,7 @@ body{
 
     .titulo{
         font-size: 25px;
+        height: auto;
     }
 
     #escolhaPersonagem{

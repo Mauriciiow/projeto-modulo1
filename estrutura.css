@@ -108,5 +108,22 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'monster', Courier, monospace;
+    text-align: center;
     font-size: 20px;
+}
+
+
+@media(max-width: 600px){         
+    #titulo{
+        height: auto;
+    }
+
+    #rodape{
+        font-size: 16px;
+    }
+
+    #botao{
+        margin-bottom: 25px;
+    }
+    
 }
