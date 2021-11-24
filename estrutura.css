@@ -23,7 +23,7 @@
 }
 
 body{
-    background: url('./imagens/teahub.io-hd-landscape-wallpapers-1080p-1112866.png');
+    background: url('./imagens/fundo-inicio.png');
     display: flex;
     flex-direction: column;
     min-height: 100vh;
