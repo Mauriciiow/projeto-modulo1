@@ -116,10 +116,6 @@ body{
 
 
 @media(max-width: 600px){         
-    #titulo{
-        height: auto;
-    }
-
     #rodape{
         font-size: 16px;
     }
